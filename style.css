@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cutive+Mono&family=Homenaje&family=Lobster+Two&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Righteous&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Special+Elite&family=Tilt+Prism&display=swap');
+:root {
+    --border: white;
+  }
+  
+  input {
+    background-color: transparent;
+    border: 0px solid;
+    --color-text: #2e2eff;
+    color: var(--color-text);
+    font-family: 'cutive mono';
+    font-size: 24px;
+    caret-color: var(--color-text);
+    height: 20px;
+    width: 160px;
+  }
+  
+  #submit-button {
+    background-color: transparent;
+    border: 0px solid;
+    font-family: 'cutive mono';
+    font-size: 22px;
+    caret-color: var(--color-text);
+    margin-top: 15px;
+    padding: 10px;
+    cursor: pointer;
+    height: 10%;
+    align-items: center;
+    color: green;
+    font-weight: 900;
+    width: 100%;
+  }
+  
+  textarea:focus,
+  input:focus {
+    outline: none;
+  }
+  
+  hr {
+    margin: 0px;
+    height: 1px;
+    Width: 100%;
+  }
+  
+  html {
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+  }
+  
+  body {
+    color: green;
+    font-family: 'cutive mono';
+    font-size: 22px;
+    height: 98%;
+  }
+  
+  #main {
+    background-color: #000000;
+    width: 100%;
+    height: 90%;
+  }
+  
+  #input-box {
+    background-color: #000000;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .code {
+    height: 100%;
+  }
+  
+  #code {
+    width: auto;
+    height: 100%;
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #ffffff;
+  }
+  
+  
+  #code-output {
+    border: 2px solid white;
+    width: 80%;
+    padding: 0px;
+    position: relative;
+  }
+  
+  #code-input {
+    border: 2px solid white;
+    width: 20%;
+    padding: 0px;
+  }
+  
+  .head {
+    float: center;
+    margin: 2px;
+    Padding: 4px;
+    font-size: 24px;
+  }
+  
+  .run {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 98.25%;
+    height: 89%;
+    margin: 4px;
+    margin-bottom: 45px;
+    padding: 5px;
+  }
+  
+  .run::-webkit-scrollbar {
+    width: 8px;
+    background-color: transparent;
+    padding: 4px;
+  }
+  
+  .run::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    padding: 4px;
+    background-color: #2b2b2b;
+  }
+  
+  .run::-webkit-scrollbar-track {
+    padding: 4px;
+    border-radius: 2px;
+    background-color: transparent;
+  }
+  
+  .textbox {
+    Background-color: #000000;
+    width: 90%;
+    color: green;
+    font-size: 18px;
+    height: 80%;
+    margin: 8px;
+    float: center;
+  }
+  
+  
+  #input-box {
+    margin: auto;
+    height: 100%;
+  }
