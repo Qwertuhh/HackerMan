@@ -2,7 +2,9 @@
 
 Welcome to my project repository! This project showcases the programming concepts and techniques I have learned in my inisitial days in Javascript. The primary focus is on understanding and implementing these concepts rather than perfecting the design or creating production-ready solutions.
 
-This site give you an enviroment to hake other usernames (dummy emails)
+This site give you an enviroment to hake other usernames (dummy emails).
+
+[click here to hope on site!](https://qwertuhh-hackerman.netlify.app)
 
 ## What I had learnt
 
